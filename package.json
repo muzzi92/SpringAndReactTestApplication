@@ -1,10 +1,9 @@
 {
   "name": "springandreacttestapplication",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "webpack --watch -d"
   },
   "repository": {
     "type": "git",
@@ -15,5 +14,12 @@
   "bugs": {
     "url": "https://github.com/muzzi92/SpringAndReactTestApplication/issues"
   },
-  "homepage": "https://github.com/muzzi92/SpringAndReactTestApplication#readme"
+  "homepage": "https://github.com/muzzi92/SpringAndReactTestApplication#readme",
+  "dependencies": {
+    "webpack": "^4.11.1"
+  },
+  "description": "",
+  "devDependencies": {
+    "webpack-cli": "^3.0.2"
+  }
 }
